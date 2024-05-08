@@ -1,0 +1,10 @@
+
+#####----- Important Notes -----------------------------------------------------------------------------------------------------------#####
+
+:==: Log multilple 
+console.table([Comma, Seperated, Multiple, Variable ]);
+
+:==: To treat all code as newer JavaScript Version  
+"use strict";
+
+

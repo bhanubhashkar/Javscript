@@ -1,0 +1,49 @@
+
+#####----- JavaScript Lesson ----------------------------------------------------------------------------------------------------------#####
+01 - Done : 01 - Introduction
+02 - Done : 01 - Env Setup
+03 - Done : 01 - GitHub
+04 - Done : 02 - Let Const Var
+05 - Done : 03 - DataTypes
+06 - Done : 04 - DataType Conversion
+07 - Done : 05 - String to Number Conversion
+08 - Done : 06 - Comparison of Data Types
+09 - Done : 03 - DataType Summary
+10 - Done : 07 - Stack and Heap Memory
+11 - Done : 08 - Strings
+12 - Done : 09 - Numbers & Maths
+13 - Done : 10 - Date & Time
+14 - Done : 11 - Array
+15 - Done : 11 - Array
+16 - Done : 12 - Objects
+17 - Done : 12 - Objects
+18 - Done : 12 - Object DeStructure
+19 - Done : 13 - Function
+20 - Done : 13 - Function
+21 - Done : 14 - Scope
+22 - Done : 14 - Scope & Mini Hoisting
+23 - Done : 15 - THIS & Arrow function
+24 - Done : 16 - IIFE
+25 - Done : 17 - JS Execution
+26 - Done : 18 - Control Flow
+27 - Done : 19 - For Loop
+28 - Done : 20 - While & DoWhile Loop
+29 - Done : 21 - High Order Array Loop
+30 - Done : 22 - Filter Map & Reduce
+31 -  : 23 - DOM Introdution
+32 -  : 24 - All DOM Selectors
+33 -  : 25 - New Element in DOM
+34 -  : 26 - Edit & Remove DOM Element
+35 -  : -- - Projects 
+36 -  : 27 - Events
+37 -  : 28 - Async Fundamentals
+38 -  : -- - Projects
+39 -  : 29 - API & V8 Engine
+40 -  : 30 - Promise
+
+
+
+
+
+
+

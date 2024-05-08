@@ -1,0 +1,20 @@
+
+#####----- Java Script Notes -----------------------------------------------------------------------------------------------------------#####
+
+:===: To run any JS file through NodeJS
+node fimeName
+
+:===: Below command for GitHub config
+git config --global user.name 'bhanubhashkar'
+git config --global user.email 'reachoutbhanu@gmail.com'
+
+:===: Const Let Var 
+Unassigned variables and constatnts are treated as undefined by JavaScript.
+
+:==: Log multilple 
+console.table([Comma, Seperated, Multiple, Variable ]);
+
+:==: Misc 
+alert("Message")    -   It will not work in node Env.
+
+
