@@ -1,45 +1,31 @@
 
 #####----- JavaScript Lesson ----------------------------------------------------------------------------------------------------------#####
 01 - Done : 01 - Introduction
-02 - Done : 01 - Env Setup
-03 - Done : 01 - GitHub
-04 - Done : 02 - Let Const Var
-05 - Done : 03 - DataTypes
-06 - Done : 04 - DataType Conversion
-07 - Done : 05 - String to Number Conversion
-08 - Done : 06 - Comparison of Data Types
-09 - Done : 03 - DataType Summary
-10 - Done : 07 - Stack and Heap Memory
-11 - Done : 08 - Strings
-12 - Done : 09 - Numbers & Maths
-13 - Done : 10 - Date & Time
-14 - Done : 11 - Array
-15 - Done : 11 - Array
-16 - Done : 12 - Objects
-17 - Done : 12 - Objects
-18 - Done : 12 - Object DeStructure
-19 - Done : 13 - Function
-20 - Done : 13 - Function
-21 - Done : 14 - Scope
-22 - Done : 14 - Scope & Mini Hoisting
-23 - Done : 15 - THIS & Arrow function
-24 - Done : 16 - IIFE
-25 - Done : 17 - JS Execution
-26 - Done : 18 - Control Flow
-27 - Done : 19 - For Loop
-28 - Done : 20 - While & DoWhile Loop
-29 - Done : 21 - High Order Array Loop
-30 - Done : 22 - Filter Map & Reduce
-31 -  : 23 - DOM Introdution
-32 -  : 24 - All DOM Selectors
-33 -  : 25 - New Element in DOM
-34 -  : 26 - Edit & Remove DOM Element
-35 -  : -- - Projects 
-36 -  : 27 - Events
-37 -  : 28 - Async Fundamentals
-38 -  : -- - Projects
-39 -  : 29 - API & V8 Engine
-40 -  : 30 - Promise
+02 - Done : 02 - Variables
+03 - Done : 03 - Const Let Var
+04 - Done : 04 - Primitive & Objects
+05 - Done : 05 - Practice Set 1
+06 - Done : 06 - Operators & Expressions
+07 - Done : 07 - Conditional Expressions
+08 - Done : 08 - Practice Set 2
+09 - Done : 09 - For Loops
+10 - Done : 10 - While Loop
+11 - Done : 11 - Functions
+12 - Done : 12 - Practice Set 3
+13 - Done : 13 - String
+14 - Done : 14 - Srring Method
+15 - Done : 15 - Practice Set 4
+16 - Done : 16 - Array
+17 - Done :  - Array Method
+18 - Done :  - Array Advance Method
+19 - Done :  - Loops with Array
+20 - Done :  - Map Filter & Reduce
+21 - Done :  - Practice Set 5
+22 - Done :  - Exercise 1 : Guess the Number
+23 - Done :  - Javascript in Browser
+24 - Done :  - Script Tag
+25 - Done :  - JS Console Object
+
 
 
 
