@@ -46,6 +46,46 @@ var accType = "Savings"
 
 ## Primitive & Objects
 ```javascript
+/*
+# Primitive Datatypes 
+There are Seven Types of Primitive Datatypes (NNSSBBU)
+null        :   Hold nothing
+number      :   Hold numerical data
+string      :   Hold alpha numerical data
+symbol      :   Hold symbol
+boolean     :   Hold boolean data true/false
+BigInt      :   Hold large numerical data
+undefied    :   Blank variable, Yet to be initialized
+
+# Non Primitive/Objects or Reference Type Datatype (AOF)
+There are three types of Non Primitive Data Types, which are also called as Objects, Function or Object Function.
+array       :   Holds mutiple data which can be of different datatypes
+object      :   Holds object or data in key : value pair format
+function    :   Holds function definition
+*/
+
+const myNull = null;
+const myNumber = 998877;
+const myString  = "This is A string";
+const mySymbol = Symbol("I am A symbol");
+const boolean = true;
+const boolean2 = Boolean(0);
+const myBigint = 1234567n; 
+const myBigint2 = BigInt("12345");
+const myUndefined = undefined;
+
+console.log(myArray);
+console.log(myObject);
+console.log(myFunction);
+console.log(myFunction());
+
+```
+
+## Primitive & Objects
+```javascript
+/*
+
+*/
 
 
 ```
