@@ -15,18 +15,19 @@ Variable name can consist of letter, digit, underscore and $ only.
 Variable name must be started with letter, undserscore or $ sign.
 Variable naeme cannot be started with numbers.
 Reserved words cannort be used as variable name.
-*/
 
 let myName = "Bhanu";
-
-/*
-let myName = "Bhanu";
-in above code
+in below code
 let     :   keyword
 myName  :   identifier
 =       :   assignment
 Bhanu   :   literal
 */
+```
+
+```javascript
+let myName = "Bhanu";
+
 
 ```
 
@@ -37,7 +38,9 @@ const   :   The values cannot be changed, one time initializastion during declar
 let     :   The values can be changed during runtime and this is used to declare block scope variables.
 var     :   The scope is global and values can be changed throughout the execution, which is not a good thing. NOT RECOMMENDED to use because of scope issues.
 */
+```
 
+```javascript
 const accNum = "BANK_SA_987654";
 let accBal = 998800;
 var accType = "Savings"
@@ -63,7 +66,9 @@ array       :   Holds mutiple data which can be of different datatypes
 object      :   Holds object or data in key : value pair format
 function    :   Holds function definition
 */
+```
 
+```javascript
 const myNull = null;
 const myNumber = 998877;
 const myString  = "This is A string";
@@ -99,7 +104,7 @@ console.log(myFunction());
 ```
 
 ## Primitive & Objects
-### 
+```javascript
 /*
 Arithmetic Operators
     +   :   Addition
@@ -159,6 +164,7 @@ Bitwise Assignment Operator
     |=  :   x |= y	    x = x | y
 
 */
+```
 
 ```javascript
 console.log("Arithmetic Operators");
