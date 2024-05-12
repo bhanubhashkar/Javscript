@@ -54,7 +54,10 @@ const myObject = {fullName : 'Bhanu Bhashkar', course : "B.Tech", session : 2020
 const myFunction = function greet(){console.log('Hi, Geetings from JavaScript.');};
 
 console.log(myArray);
+console.log(myArray[0]);
 console.log(myObject);
+console.log(myObject.course);
+console.log(myObject['session']);
 console.log(myFunction);
 console.log(myFunction());
 

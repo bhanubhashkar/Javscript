@@ -74,8 +74,25 @@ const myBigint = 1234567n;
 const myBigint2 = BigInt("12345");
 const myUndefined = undefined;
 
+const myArray = ['Bhanu Bhshkar','B.Tech', 2020, 8.92, true, undefined];
+const myObject = {fullName : 'Bhanu Bhashkar', course : "B.Tech", session : 2020, cgpa : 8.92, status : true, other : undefined};
+const myFunction = function greet(){console.log('Hi, Geetings from JavaScript.');};
+
+console.log(myNull);
+console.log(myNumber);
+console.log(myString);
+console.log(mySymbol);
+console.log(boolean);
+console.log(boolean2);
+console.log(myBigint);
+console.log(myBigint2);
+console.log(myUndefined);
+
 console.log(myArray);
+console.log(myArray[0]);
 console.log(myObject);
+console.log(myObject.course);
+console.log(myObject['course']);
 console.log(myFunction);
 console.log(myFunction());
 
