@@ -1,9 +1,9 @@
 
-#Javascript Notes
+# Javascript Notes
 
-##Variables
+## Variables
 
-```Javascript
+```javascript
 
 /*
 Variables are memory containers which can hold data.
