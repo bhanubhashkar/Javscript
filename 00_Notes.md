@@ -28,7 +28,6 @@ Bhanu   :   literal
 ```javascript
 let myName = "Bhanu";
 
-
 ```
 
 ## Const Let & Var
@@ -103,7 +102,7 @@ console.log(myFunction());
 
 ```
 
-## Primitive & Objects
+## Operators
 ```javascript
 /*
 Arithmetic Operators
@@ -236,5 +235,5 @@ console.log(res1 < 10 || res2 >10);
 console.log(!false);
 console.log(!true);
 
-
 ```
+
