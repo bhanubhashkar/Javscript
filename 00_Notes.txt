@@ -1,2 +1,8 @@
 
 #####----- Java Script Notes -----------------------------------------------------------------------------------------------------------#####
+
+// Display A popup alert message on browser
+alert("Welcome to the webpage.");
+
+// Display A popup alert message on browser and expect string input
+prompt("Enter your name.")
