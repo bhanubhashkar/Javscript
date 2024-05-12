@@ -27,6 +27,3 @@ Bhanu   :   literal
 */
 
 console.log(myName);
-
-
-
