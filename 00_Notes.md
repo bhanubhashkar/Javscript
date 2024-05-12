@@ -1,7 +1,9 @@
 
-### Variables
+#Javascript Notes
 
-...Javascript
+##Variables
+
+```Javascript
 
 /*
 Variables are memory containers which can hold data.
@@ -30,4 +32,4 @@ Bhanu   :   literal
 
 console.log(myName);
 
-...
+```
