@@ -132,4 +132,3 @@ console.log(res1 < 10 || res2 >10);
 console.log(!false);
 console.log(!true);
 
-
