@@ -9,7 +9,7 @@
 07 - Done : 07 - Conditional Expressions
 08 - Done : 08 - Practice Set 2
 09 - Done : 09 - For Loops
-10 - Done : 10 - While Loop
+10 - Done : 09 - While Loop
 11 - Done : 11 - Functions
 12 - Done : 12 - Practice Set 3
 13 - Done : 13 - String

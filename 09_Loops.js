@@ -79,7 +79,7 @@ let studentMarks = {
 }
 for (const marks in studentMarks) {
     //const element = studentMarks[marks];
-    console.log("Marks of" + marks + " is " + studentMarks[marks] + ".");
+    console.log("Marks of " + marks + " is " + studentMarks[marks] + ".");
 }
 
 console.log("Log values using forof loop :");
