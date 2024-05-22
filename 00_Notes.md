@@ -366,10 +366,21 @@ for (ObjectValue of ObjectName) {
 ---------------------------------------------------------------------------------
 
 while   :
-
+while (condition) {
+    //if condition true run this block of code
+}
+    The condition inside while will be evaluated if true then while block code will be executed.
+    The while block code will run till the condition inside while will became false.
+    Force stop of loop can be done using break; statement.
 ---------------------------------------------------------------------------------
-do while   :
 
+dowhile   :
+do {
+    //this block of code will executed then condition will be evaluated.
+} while (condition;
+    The do block code will be executed then the condition will be checked if true again do block code will be executed.
+    Do block cod will be executed untill the condition inside while became false.
+    Atlease one time execution going to heppen in do while loop.
 ---------------------------------------------------------------------------------
 
 */
@@ -393,24 +404,28 @@ let studentMarks = {
 }
 for (const marks in studentMarks) {
     //const element = studentMarks[marks];
-    console.log("Marks of",marks +" is",studentMarks[marks]);
-    
+    console.log("Marks of" + marks + " is " + studentMarks[marks] + ".");
 }
 
 console.log("Log values using forof loop :");
 const nameChar = "Bhanu Bhashkar";
 for (const value of nameChar) {
     //const element = studentMarks[marks];
-    console.log("Chracters at place __ is",value );
-    
+    console.log("Chracters at place __ is " + value + "." );
 }
 
-// Add n Natural number
-console.log("Sum of N numbers :");
-let element =0
-for (let index = 1; index <=5; index++) {
-    element = element+index;
-    console.log(element);
+console.log("Log values using while loop :");
+let newNum1 = 1;
+while (newNum1 <= 5) {
+    console.log(newNum1);
+    newNum1++;
 }
+
+console.log("Log values using dowhile loop :");
+let newNum2 = 1;
+do {
+    console.log(newNum2);
+    newNum2++;
+} while (newNum2 <= 10);
 
 ```
