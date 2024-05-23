@@ -3,7 +3,7 @@
 
 /*
 #Strings
-Strings are used to store and manupulate text data.
+Strings are used to store and manupulate text data, Strings are ummutable once declared it cant be changed.
 Strings can be declared using "text" (double quotes), 'text' (single quotes) and using `text` (backtick).
 Multiple Strings can be inserted in a statement using string interpolation/templete literals `${str1} and ${str2}`.
 To use special character in any statement \ can be used. for " write \" (escape sequence \" will be treated as single character).
