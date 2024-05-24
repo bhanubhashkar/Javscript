@@ -87,3 +87,8 @@ console.log(myArray);
 const newArr = myArray.concat(basicArray);
 console.log(newArr);
 
+// Convert any Object to an Array
+const myName = 'Bhanu';
+console.log(myName);
+const myNameArr = Array.from(myName);
+console.log(myNameArr);
