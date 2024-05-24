@@ -18,14 +18,13 @@
 16 - Done : 16 - Array
 17 - Done : 17 - Array Method
 18 - Done : 18 - Array Advance Method
-19 - Done :  - Loops with Array
+19 - Done : 19 - Array with Loops
 20 - Done :  - Map Filter & Reduce
 21 - Done :  - Practice Set 5
 22 - Done :  - Exercise 1 : Guess the Number
 23 - Done :  - Javascript in Browser
 24 - Done :  - Script Tag
 25 - Done :  - JS Console Object
-
 
 
 

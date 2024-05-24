@@ -83,3 +83,7 @@ console.log(myArray);
 console.log(myArray.unshift('Shekhu'));
 console.log(myArray);
 
+// Concatenate multiple single order array, returns new array, No changes done on existing array.
+const newArr = myArray.concat(basicArray);
+console.log(newArr);
+
