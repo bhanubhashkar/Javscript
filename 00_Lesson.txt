@@ -26,8 +26,6 @@
 24 - Done :  - Script Tag
 25 - Done :  - JS Console Object
 
-jjk
-
 
 
 
