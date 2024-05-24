@@ -59,9 +59,8 @@ Bitwise Assignment Operator
     ^=  :   x ^= y	    x = x ^ y
     |=  :   x |= y	    x = x | y
 
+
 */
-
-
 
 console.log("Arithmetic Operators");
 let myNum1 = 5;
