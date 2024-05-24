@@ -16,8 +16,8 @@
 14 - Done : 14 - Srring Method
 15 - Done : 15 - Practice Set 4
 16 - Done : 16 - Array
-17 - Done :  - Array Method
-18 - Done :  - Array Advance Method
+17 - Done : 17 - Array Method
+18 - Done : 18 - Array Advance Method
 19 - Done :  - Loops with Array
 20 - Done :  - Map Filter & Reduce
 21 - Done :  - Practice Set 5
