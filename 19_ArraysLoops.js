@@ -11,10 +11,12 @@ for (let index = 0; index < myArr.length; index++) {
     console.log(element);
 }
 
-// Using ForEach Loop
-myNum.forEach(element => {
+// Using ForEach Loop, changes in existing array. it used to perform operation on existing array (value, index, whole array)
+myNum.forEach((element, index, array) => {
     element = element * element;
     console.log(element); 
+    console.log(index); 
+    console.log(array); 
 });
 
 // Using For in Loop
