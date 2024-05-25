@@ -740,11 +740,18 @@ console.log(myArray);
 const newArr = myArray.concat(basicArray);
 console.log(newArr);
 
+// Convert any Object to an Array
+const myName = 'Bhanu';
+console.log(myName);
+const myNameArr = Array.from(myName);
+console.log(myNameArr);
+
 ```
 ```javascript
 
 // Delete - Deletes the givem index element and change the value to undefined/empty, doest not change the array length.
 const myArr =['Bhanu','Shashank','Tuttu','Name','Shekhu','Shekhar','Bhashkar'];
+
 const myNums = [98,77,7,88,23,54,6,61,89,3,66,82];
 
 console.log(myArr);
@@ -783,22 +790,74 @@ console.log(myList.slice(2,4));
 console.log(myList);
 
 ```
+## Array with Loops
 ```javascript
+// Using For Loop
+for (let index = 0; index < myArr.length; index++) {
+    const element = myArr[index];
+    console.log(element);
+}
+
+// Using ForEach Loop, changes in existing array. it used to perform operation on existing array (value, index, whole array)
+myNum.forEach((element, index, array) => {
+    element = element * element;
+    console.log(element); 
+    console.log(index); 
+    console.log(array); 
+});
+
+// Using For in Loop
+for (const key in myArr) {
+    const element = myArr[key];
+    console.log(element);
+}
+
+// Using For of Loop
+for (const iterator of myNum) {
+    console.log(iterator);
+}
+```
+## Map, Filter & Reduce
+```javascript
+// Map - Create a new array with all new elements using existig array, returns a new Array. (value, index, whole array), Accept a function in parameter.
+const myNum = [10,20,30,40,50];
+//console.log(myNum);
+
+const newNum = myNum.map((element, index, array) => {
+    console.log("Value at " + index + " is " + element + " and the whole array is " + array);
+    return element * index;
+})
+console.log(newNum);
+
+// Filter - Create a new array after applyling filter test on existing array, returns a new Array. (value, index, whole array), Accept a function in parameter.
+const otherArray = myNum.filter((element,index,array)=>{
+    //console.log(element,index,array);
+    return element < 40;
+})
+console.log(otherArray);
+
+// Reduce - Reduces an array in a single value. after appllying code logic of given function on array, iitially on first element and second element.
+// After first iteration result of prev iteration will be considerd as first element. Returns a single value. (prevValue, currValue, currIndex, wholeArray), Accept a function in parameter.
+
+const reducedArr = myNum.reduce((prev,curr,index,arr)=>{
+    // console.log(prev);
+    // console.log(curr);
+    // console.log(index);
+    // console.log(arr);
+    return prev + curr;
+})
+
+console.log(reducedArr);
+```
+```javascript
+22
 
 ```
 ```javascript
-/*
-
-*/
-```
-```javascript
+23
 
 ```
 ```javascript
-/*
-
-*/
-```
-```javascript
+24
 
 ```

@@ -29,4 +29,4 @@ const reducedArr = myNum.reduce((prev,curr,index,arr)=>{
     return prev + curr;
 })
 
-//console.log(reducedArr);
+console.log(reducedArr);
