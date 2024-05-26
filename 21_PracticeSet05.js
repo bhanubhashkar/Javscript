@@ -26,3 +26,4 @@ const factN = nArr.reduce((prevValue,currValue)=>{
 console.log(factN);
 
 
+

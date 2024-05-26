@@ -849,6 +849,7 @@ const reducedArr = myNum.reduce((prev,curr,index,arr)=>{
 
 console.log(reducedArr);
 ```
+## Browser
 ```javascript
 22
 
