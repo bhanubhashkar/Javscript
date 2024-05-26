@@ -2,7 +2,6 @@
 // #####----- JavaScript in Browser ----------------------------------------------------------------------------------------------------#####
 
 /*
-
 The browser have Javascript Engine or Javascript runtimt which executes and runs the js code.
 Javascript ability in browser is limited. Like a web page google.com js can not access client's machine memory and other webpages opens in same browser.
 

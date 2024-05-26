@@ -851,14 +851,47 @@ console.log(reducedArr);
 ```
 ## Browser
 ```javascript
-22
+/*
+The browser have Javascript Engine or Javascript runtimt which executes and runs the js code.
+Javascript ability in browser is limited. Like a web page google.com js can not access client's machine memory and other webpages opens in same browser.
+
+Developer Tools
+Every browser have some tools for development purpose, usually known as Developer tools.
+Elements    :   Shows web page elements
+Console     :   Where all the console messages are logged
+Sources     :   List of files/media and path used or attached to any webpage.
+Network     :   Shows network call by browser 
+Performansce:   Shows the performance of the web page, render speed
+Memory      :   
+Application 
+Lighthouse
+Recorder
+*/
+```
+## Script Tag
+```javascript
+/*
+Js can be added in any html page using <script> </script> Tag.
+Javascript code can be written directly inside script tag in html head or body section.
+Other way to add js is using src attribute of script tag.
+
+<script>
+    console.log("Hello, This JS code is from script tag.");
+</script>
+
+<script src="JsFilePath/JsFileName.js"> </script>
+
+*/
+```
+```javascript
+25
 
 ```
 ```javascript
-23
+26
 
 ```
 ```javascript
-24
+27
 
 ```
