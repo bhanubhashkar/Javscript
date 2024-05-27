@@ -952,15 +952,33 @@ let z = 6;
 console.assert(x + y == 10, "If true, log nothing. Only log if assertion is false.");
 console.assert(x + z == 10, "If true, log nothing. Only log if assertion is false.");
 ```
+## Alert Prompt & Confirm
 ```javascript
-26
+let userName = 'Default User';
+let userSession = '';
 
-```
-```javascript
-27
+// Shows an popup in browser with the given message.
+alert("Hi " + userName + ", Welcome this is a message from JS using prompt method.");
 
+// Shows an popup in browser with the given message and expect an input (a string value).
+userName = prompt ("Enter Your Name :");
+alert("Hi " + userName + ", Welcome this is a message from JS using prompt method.");
+
+// Shows an popup in browser with the given message and expect Ok/Cancel button click, where Ok means true and Cancel means false.
+userSession = confirm("Do you want to logout ?");
+alert("User choosed " + userSession + ".");
+
+// Append the text content in HTML page body section.
+document.write('This is added using document.write method');
+
+// Alert Prompt and confirm blocks the main execution threads.
 ```
+## BOM & DOM
 ```javascript
 28
+
+```
+```javascript
+29
 
 ```

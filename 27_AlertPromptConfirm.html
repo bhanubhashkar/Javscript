@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Alert Prompt & Confirm</title>
+    
+</head>
+<body>
+    <h6>Welcome to this page.</h6>
+    <script>
+        let userName = 'Default User';
+        let userSession = '';
+        
+        // Shows an popup in browser with the given message.
+        alert("Hi " + userName + ", Welcome this is a message from JS using prompt method.");
+
+        // Shows an popup in browser with the given message and expect an input (a string value).
+        userName = prompt ("Enter Your Name :");
+        alert("Hi " + userName + ", Welcome this is a message from JS using prompt method.");
+
+        // Shows an popup in browser with the given message and expect Ok/Cancel button click, where Ok means true and Cancel means false.
+        userSession = confirm("Do you want to logout ?");
+        alert("User choosed " + userSession + ".");
+
+        // Append the text content in HTML page body section.
+        document.write('This is added using document.write method');
+
+        // Alert Prompt and confirm blocks the main execution threads.
+        
+    </script>
+    <h6>This is end of the page.</h6>
+</body>
+</html>
