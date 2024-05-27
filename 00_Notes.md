@@ -972,13 +972,97 @@ alert("User choosed " + userSession + ".");
 document.write('This is added using document.write method');
 
 // Alert Prompt and confirm blocks the main execution threads.
+
 ```
 ## BOM & DOM
 ```javascript
-28
+// Window   :   It is a global object. It represents the browser window and provides methods to control it.
+console.log(window);
+window.console.log(window);
+
+// DOM      :   Represent the page content as HTML. Thw whole browser elements is converted as a JS object and named as DOM (Document Object Model).
+console.log(document);
+// Parse the body element of HTML Page as JS Object.
+console.log(document.body);
+
+// BOM      :   Represent the additional objects provided by the browser/host for working with everything except the document. Thw functions alert, prompt are the examples of BOM (Document Object Model).
+alert("Hi Bhanu, Welcome this is a message from JS.");
+// Refirect to any web address.
+location.href='https://google.com';
 
 ```
 ```javascript
-29
+<<script>
+let userAge = 0;
+let userDrive = '';
+let userRepeat = true;
+
+do {
+    userAge = Number.parseInt(prompt("Hi, Please enter your age :"));
+    if (userAge < 0) {
+        alert("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
+        userRepeat = true;
+    }
+    else if (userAge >= 18) {
+        alert("Your age is " + userAge + ", You can drive :\) ");
+        userRepeat = confirm("Do you want to see the prompt again ? ");
+        if (userRepeat == true) {
+            userRepeat = true;
+        }
+        else {
+            userRepeat = false;
+        }
+    }
+    else {
+        userRepeat = confirm("Your age is " + userAge + ", You cannot drive :\( ");
+        userRepeat = confirm("Do you want to see the prompt again ? ");
+        if (userRepeat == true) {
+            userRepeat = true;
+        }
+        else {
+            userRepeat = false;
+        }
+    }
+
+} while (userRepeat == true);
+alert("Thank you for using driving age eligibility test.");
+</script>
+
+<script>
+let userNum = 0;
+
+userNum = Number.parseInt(prompt("Hi, Please enter number to redirect: \n 1: Google age \n 2: Facebook \n 3: Outlook :"));
+if (userNum < 0 || userNum > 3) {
+    alert("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
+}
+else if (userNum == 1) {
+    location.href = "https://google.com";
+}
+else if (userNum == 2) {
+    location.href = "https://facebook.com";
+}
+else if (userNum == 3) {
+    location.href = "https://outlook.com";
+}
+</script>
+
+<script>
+let userColor = 0;
+
+userColor = prompt("Hi, Please enter color to change the background :");
+document.body.style.backgroundColor=userColor;
+</script>
+
+```
+```javascript
+30
+
+```
+```javascript
+31
+
+```
+```javascript
+32
 
 ```

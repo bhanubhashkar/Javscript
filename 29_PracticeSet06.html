@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript BOM DOM & Window Object</title>
+
+</head>
+
+<body>
+    <h6>Welcome to this page.</h6>
+    <script>
+        let userAge = 0;
+        let userDrive = '';
+        let userRepeat = true;
+
+        do {
+            userAge = Number.parseInt(prompt("Hi, Please enter your age :"));
+            if (userAge < 0) {
+                alert("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
+                console.error("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
+                userRepeat = true;
+            }
+            else if (userAge >= 18) {
+                alert("Your age is " + userAge + ", You can drive :\) ");
+                userRepeat = confirm("Do you want to see the prompt again ? ");
+                if (userRepeat == true) {
+                    userRepeat = true;
+                }
+                else {
+                    userRepeat = false;
+                }
+            }
+            else {
+                userRepeat = confirm("Your age is " + userAge + ", You cannot drive :\( ");
+                userRepeat = confirm("Do you want to see the prompt again ? ");
+                if (userRepeat == true) {
+                    userRepeat = true;
+                }
+                else {
+                    userRepeat = false;
+                }
+            }
+
+        } while (userRepeat == true);
+        alert("Thank you for using driving age eligibility test.");
+    </script>
+
+    <script>
+        let userNum = 0;
+        
+        userNum = Number.parseInt(prompt("Hi, Please enter number to redirect: \n 1: Google age \n 2: Facebook \n 3: Outlook :"));
+        if (userNum < 0 || userNum > 3) {
+            alert("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
+        }
+        else if (userNum == 1) {
+            location.href = "https://google.com";
+        }
+        else if (userNum == 2) {
+            location.href = "https://facebook.com";
+        }
+        else if (userNum == 3) {
+            location.href = "https://outlook.com";
+        }
+    </script>
+
+    <script>
+        let userColor = 0;
+        
+        userColor = prompt("Hi, Please enter color to change the background :");
+        document.body.style.backgroundColor=userColor;
+    </script>
+
+
+    <h6>This is end of the page.</h6>
+</body>
+
+</html>
