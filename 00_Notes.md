@@ -1001,6 +1001,7 @@ do {
     userAge = Number.parseInt(prompt("Hi, Please enter your age :"));
     if (userAge < 0) {
         alert("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
+        console.error("Your entered age " + userAge + " which is invalid, Please try again with valid age.");
         userRepeat = true;
     }
     else if (userAge >= 18) {
