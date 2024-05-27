@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Rock Paper & Scissor</title>
+    
+</head>
+<body>
+    <script>
+        const gameRound = 2;
+        let gameRepeat = '';
+        const preChar ='RPS';
+        const charLen = preChar.length;
+
+        let compScore = 0;
+        let userScore = 0;
+
+        do {
+            alert("You have " + gameRound + " attemps, Starting now.")
+            for (let index = 1; index <= gameRound; index++) {
+                const ranNum = Math.floor(Math.random() * charLen);
+                const compChar = preChar.charAt(ranNum);
+                let leftRound = gameRound - index;
+                let userChar = '';
+                
+
+                userChar = prompt("Enter your option : \n R : Rock \n P : Paaper \n S : Scissor")
+                const checkChar = (C,U) => {
+                    if (C == 'R' && U == 'R') {
+                        alert("Tie, Both selected Rock.\nAttemp left : " + leftRound)
+                        userScore = userScore + 1;
+                        compScore = compScore + 1;
+                    }
+                    else if (C == 'P' && U == 'P') {
+                        alert("Tie, Both selected Paper.\nAttemp left : " + leftRound )
+                        userScore = userScore + 1;
+                        compScore = compScore + 1;
+                    }
+                    else if (C == 'S' && U == 'S') {
+                        alert("Tie, Both selected Scissor.\nAttemp left : " + leftRound)
+                        userScore = userScore + 1;
+                        compScore = compScore + 1;
+                    }
+                    else if(C == 'R' && U == 'S') {
+                        alert("Computer WON, Computer Selected " + compChar + " and You choosed " + userChar + ".\nAttemp left : " + leftRound );
+                        compScore = compScore + 1;
+                    }
+                    else if(C == 'R' && U == 'P') {
+                        alert("You WON, Computer Selected " + compChar + " and You choosed " + userChar + ".\nAttemp left : " + leftRound );
+                        userScore = userScore + 1;
+                    }
+                    else if (C == 'P' && U == 'R') {
+                        alert("Computer WON, Computer Selected " + compChar + " and You choosed " + userChar + ".\nAttemp left : " + leftRound );
+                        compScore = compScore + 1;
+                    } 
+                    else if(C == 'P' && U == 'S') {
+                        alert("You WON, Computer Selected " + compChar + " and You choosed " + userChar + ".\nAttemp left : " + leftRound );
+                        userScore = userScore + 1;
+                    }
+                    else if(C == 'S' && U == 'R') {
+                        alert("You WON, Computer Selected " + compChar + " and You choosed " + userChar + ".\nAttemp left : " + leftRound );
+                        userScore = userScore + 1;
+                    }
+                    else if(C == 'S' && U == 'P') {
+                        alert("Computer WON, Computer Selected " + compChar + " and You choosed " + userChar + ".\nAttemp left : " + leftRound );
+                        compScore = compScore + 1;
+                    }
+                    else {
+                        alert("No combination found, please try again.")
+                    }
+                }
+                checkChar(compChar,userChar);
+            }
+
+            alert("The Score is \nUser : " + userScore + "\nComputer : "+ compScore);
+            if (userScore >= compScore) {
+                alert("Yay... You won :D");
+            } 
+            else {
+                alert("Better luck next time. Computer won this time.");
+            }
+            compScore = 0;
+            userScore = 0;
+
+            gameRepeat = confirm("Do you want to play again ? ");
+            if (gameRepeat == true) {
+                gameRepeat = true;
+                
+            }
+            else {
+                gameRepeat = false;
+            }
+
+        } while (gameRepeat == true);
+
+    </script>
+    <h6>This is end of the page.</h6>
+</body>
+</html>
