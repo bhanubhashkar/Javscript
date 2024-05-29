@@ -32,6 +32,7 @@
 30 - Done : 30 - Exercise 2 : Rock, Paper & Scissor
 31 - Done : 31 - DOM
 32 - Done : 32 - Children Element
+
 33 - Done : 33 - Parent & Sibling of Element
 34 - Done : 34 - Element Navigation
 35 - Done : 35 - Table Navigation
