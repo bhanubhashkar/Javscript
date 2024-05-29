@@ -1088,8 +1088,49 @@ const charLen = preChar.length;
 */
 
 ```
+## Access HTML Children Ekements
 ```javascript
-32
+/*
+Children of an element - All elements under (direct or nested) any element is called children of that element.
+Child Nodes         - Elements which are direct children of any element is called children of that element, Ex - head and body are child nodes of html.
+Descendant Nodes    - ALl nested elemnet children and their children so on, Ex - table, thread, tr, th are descendant of body.
+Spaces, Enter in HTML is counts as text node.
+
+Access Children node:
+element.firstChild  :   Returns HTML cllection of first child of that element.
+element.lastChild   :   Returns HTML cllection of last child of that element.
+element.childNodes  :   Returns HTML cllection of all child node of that element
+element.childNodes[0]:   Access first child of that element.
+element.childNodes[element.childNode.length-1]  :    Access last child of that element.
+
+
+element.childNode.length:   Returns no of the child node of that element.
+element.hasChildNodes   :   To check if element have any child nodes.
+
+*/ 
+
+<h1>Hello there, welcome to this page.</h1>
+<h2>This is a second order header element.</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, totam reprehenderit recusandae suscipit quis quisquam temporibus ipsam eligendi in rerum pariatur explicabo.</p>
+<script>
+    console.log(document.body.firstChild);
+    console.log(document.body.lastChild);
+    console.log(document.body.childNodes);
+    let nodesArray = Array.from(document.body.childNodes)
+    console.log(nodesArray);
+
+    console.log(document.body.childNodes[0]);
+    console.log(document.body.childNodes[1]);
+    console.log(document.body.childNodes[2]);
+    console.log(document.body.childNodes[3]);
+    console.log(document.body.childNodes[4]);
+    console.log(document.body.childNodes[5]);
+
+    console.log(document.body.childNodes.length);
+    console.log(document.body.hasChildNodes);
+
+    console.log(document.body.childNodes[document.body.childNodes.length - 1]);
+</script>
 
 ```
 ```javascript
