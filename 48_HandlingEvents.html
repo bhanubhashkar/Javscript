@@ -3,23 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Events </title>
+    <title>Javascript Events Handling </title>
 </head>
 <body>
-    <h1 onmouseenter="alert('Mouse entered on haeding.')">Welcome to the page.</h1>
+    <h1 >Welcome to the page.</h1>
 
-    <button onclick="alert('Hi, Welcome')">Click Me for action</button>
+    <button id="myButton">Click Me for action</button>
+    <button id="myNewButton">Click Me for action</button>
     <script>
         /*
-        HTML events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can "react" on these events.
-        Event	        Description
-        onchange    :   An HTML element has been changed
-        onclick	    :   The user clicks an HTML element
-        onmouseover	:   The user moves the mouse over an HTML element
-        onmouseout	:   The user moves the mouse away from an HTML element
-        onkeydown	:   The user pushes a keyboard key
-        onload	    :   The browser has finished loading the page
+        Add Event listner is used to assign multiple handlers to an event. Multiple eventlistner can be triggered on an event.
+        If whole function will be defined under eventlistener then it can cause issues in case of multiple event listenr on one action, 
+        so pass function reference then it will be easier in managing events. In this case reoving eventlostner is possible.
+        an event from browser is passed to the eventlistner if any activity happens on browser window.
         */
+
+        // not recommended
+        myButton.addEventListener('click',function myFun(even){
+            console.log(even); // log the event passed by browser to eventlistner.
+            console.log(even.target);
+            alert('Bhanu');
+        })
+
+        // recommended way to add eventlistner
+        let myFun = function myFun(){
+            alert('Bhanu');
+        }
+
+        let myOtherFun = function myFun(){
+            alert('Bhashkar');
+        }
+
+        // Add event listener
+        myNewButton.addEventListener('click', myFun);
+        myNewButton.addEventListener('click', myOtherFun);
+
+        // Remove event listener
+        myNewButton.removeEventListener('click', myFun);
+
     </script>
     
 </body>

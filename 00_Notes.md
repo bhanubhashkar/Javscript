@@ -1191,8 +1191,39 @@ let otherFun = setInterval(function() {
 </script>
 
 ```
-```javascript
-48
+```html
+<script>
+    /*
+    Add Event listner is used to assign multiple handlers to an event. Multiple eventlistner can be triggered on an event.
+    If whole function will be defined under eventlistener then it can cause issues in case of multiple event listenr on one action, 
+    so pass function reference then it will be easier in managing events. In this case reoving eventlostner is possible.
+    an event from browser is passed to the eventlistner if any activity happens on browser window.
+    */
+
+    // not recommended
+    myButton.addEventListener('click',function myFun(even){
+        console.log(even); // log the event passed by browser to eventlistner.
+        console.log(even.target);
+        alert('Bhanu');
+    })
+
+    // recommended way to add eventlistner
+    let myFun = function myFun(){
+        alert('Bhanu');
+    }
+
+    let myOtherFun = function myFun(){
+        alert('Bhashkar');
+    }
+
+    // Add event listener
+    myNewButton.addEventListener('click', myFun);
+    myNewButton.addEventListener('click', myOtherFun);
+
+    // Remove event listener
+    myNewButton.removeEventListener('click', myFun);
+
+</script>
 
 ```
 ```javascript
