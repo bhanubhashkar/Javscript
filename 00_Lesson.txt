@@ -49,7 +49,16 @@
 47 - Done : 47 - Browser Events
 48 - Done : 48 - Browser Events Handling
 49 - Done : 49 - Practice Set 8
-50 - Done : 50 - Exercise 3 : Solution
+50 - TBD : 50 - Exercise 3 : Solution
+51 - TBD : 51 - Exercise 4 : Watch
+52 - Done : 52 - Callbacks
+53 - Done : 53 - Callback Hell & Pyramid of Doom
+54 - Done : 54 - Promises
+55 - Done : 55 - Promise .then & .catch
+56 - Done : 56 - Promise Chaining
+57 - Done : 57 - Promise with Handlers
+58 - Done : 58 - Promise API
+59 - Done : 59 - Aysnc Await
 
 
 
