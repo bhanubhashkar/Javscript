@@ -1137,11 +1137,55 @@ element.hasChildNodes   :   To check if element have any child nodes.
 33
 
 ```
+## setTimeout and setInterval
 ```javascript
-34
+const greetUser = (user) => {
+    alert("Hi, " + (user))
+}
+
+//Set Timeout - Will start execution after the given timeperiod in milli sec. Parameter's of setTimeout function - function to execute, time in sec and function parameter if any.
+
+setTimeout(greetUser,10000, "Bhanu : 10 sec")
+
+setInterval(function() {
+  alert("This Alert will come after 5 sec of page laod.")
+}, 3000)
+
+let newFun = setTimeout(function() {
+  alert("This Alert will come after 5 sec of page laod.")
+}, 5000)
+
+// This will stop the setTimeout.
+// clearTimeout(newFun);
+
+//Set Interval - Will repeatedly execute with the gap of given time in milli sec. Parameter's of setInterval function - function to execute, time in sec and function parameter if any.
+
+setInterval(greetUser, 10000, 'Bhashkar')
+
+setInterval(function() {
+  alert("This Alert will every 3 sec.")
+}, 3000)
+
+let otherFun = setInterval(function() {
+  alert("This Alert will every 5 sec.")
+}, 5000)
+
+// clearTimeout(otherFun);
 
 ```
 ```javascript
-35
+57
+
+```
+```javascript
+58
+
+```
+```javascript
+59
+
+```
+```javascript
+60
 
 ```

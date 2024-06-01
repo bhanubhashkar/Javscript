@@ -32,20 +32,19 @@
 30 - Done : 30 - Exercise 2 : Rock, Paper & Scissor
 31 - Done : 31 - DOM
 32 - Done : 32 - Children Element
-33 - Done : 33 - Parent & Sibling of Element
-
-34 - Done : 34 - Element Navigation
-35 - Done : 35 - Table Navigation
-36 - Done : 36 - DOM Search
-37 - Done : 37 - Matches, Closet and Contains
-38 - Done : 38 - Practice Set 7
-39 - Done : 39 - Exercise 2 : Solution
-40 - Done : 40 - Exercise 3 : Tell Me A Joke
-41 - Done : 41 - Inner and Outer HTML Prperty
-42 - Done : 42 - HTML Attribute & Methods
-43 - Done : 43 - HTML Insertion Methods
-44 - Done : 44 - Insert Adjacent
-45 - Done : 45 - HTML Class Change
+33 - TBD : 33 - Parent & Sibling of Element
+34 - TBD : 34 - Element Navigation
+35 - TBD : 35 - Table Navigation
+36 - TBD : 36 - DOM Search
+37 - TBD : 37 - Matches, Closet and Contains
+38 - TBD : 38 - Practice Set 7
+39 - TBD : 39 - Exercise 2 : Solution
+40 - TBD : 40 - Exercise 3 : Tell Me A Joke
+41 - TBD : 41 - Inner and Outer HTML Prperty
+42 - TBD : 42 - HTML Attribute & Methods
+43 - TBD : 43 - HTML Insertion Methods
+44 - TBD : 44 - Insert Adjacent
+45 - TBD : 45 - HTML Class Change
 46 - Done : 46 - Set Interval & TimeOut
 47 - Done : 47 - Browser Events
 48 - Done : 48 - Browser Events Handling
