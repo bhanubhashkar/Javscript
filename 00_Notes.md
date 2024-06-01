@@ -1173,19 +1173,33 @@ let otherFun = setInterval(function() {
 // clearTimeout(otherFun);
 
 ```
-```javascript
-57
+```html
+<h1 onmouseenter="alert('Mouse entered on haeding.')">Welcome to the page.</h1>
+
+<button onclick="alert('Hi, Welcome')">Click Me for action</button>
+<script>
+    /*
+    HTML events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+    Event	        Description
+    onchange    :   An HTML element has been changed
+    onclick	    :   The user clicks an HTML element
+    onmouseover	:   The user moves the mouse over an HTML element
+    onmouseout	:   The user moves the mouse away from an HTML element
+    onkeydown	:   The user pushes a keyboard key
+    onload	    :   The browser has finished loading the page
+    */
+</script>
 
 ```
 ```javascript
-58
+48
 
 ```
 ```javascript
-59
+49
 
 ```
 ```javascript
-60
+50
 
 ```
