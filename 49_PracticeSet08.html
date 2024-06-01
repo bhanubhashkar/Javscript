@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice Set 08 </title>
+    <style>
+        .light{
+            background-color: yellow;
+        }
+        .size {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 >Welcome to the page.</h1>
+
+    <div id="bulb" class="dark light size">
+
+    </div>
+    <br>
+
+    <button id="myButton" onclick="alert('Hi, user.')">Click Me for action</button>
+    <button id="myNewButton" onclick="alert('Hello, user.')">Click Me for action</button>
+
+    <button id="btnGoogle">Google</button>
+    <button id="btnGmail">Gmail</button>
+    <button id="btnYoutube">Youtube</button>
+   
+    <script>
+
+        let bulbId = document.getElementById("bulb");
+
+        setInterval(function() {
+            bulbId.classList.toggle("light");
+         }, 100)
+ 
+        btnGoogle.addEventListener('click',function myFun(even){
+            alert('Redirecting to Google.');
+            window.location = "https://google.com";
+        })
+        btnGmail.addEventListener('click',function myFun(even){
+            alert('Redirecting to Gmial.');
+            window.location = "https://gmail.com";
+        })
+        btnYoutube.addEventListener('click',function myFun(even){
+            alert('Redirecting to Youtube.');
+            window.location = "https://youtube.com";
+        })
+
+        const fetchContent = async (url) => {
+            con = await fetch(url);
+            let data = await con.json()
+            return data;
+        }
+
+        setInterval(async function() {
+        let url = "https://jsonplaceholder.typicode.com/todos/10"
+        console.log(await fetchContent(url))
+        }, 10000)
+    </script>
+    
+</body>
+</html>

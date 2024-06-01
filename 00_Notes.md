@@ -1227,10 +1227,18 @@ let otherFun = setInterval(function() {
 
 ```
 ```javascript
-49
+52
 
 ```
 ```javascript
-50
+53
+
+```
+```javascript
+54
+
+```
+```javascript
+55
 
 ```
