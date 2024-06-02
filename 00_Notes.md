@@ -1226,9 +1226,39 @@ let otherFun = setInterval(function() {
 </script>
 
 ```
+## Calback Function
 ```javascript
-52
+/*
+A callback fuction is a function which is passed in other/parent funcion as an argument, That can be executed inside that parent function.
+While calling the passed function from any function parameter can also be passed. 
+Using callback is not recommended. Use Promises instead of callback whenever required.
 
+*/
+
+loadScript = (source, callBack) => {
+    var script = document.createElement('script');
+    script.src = source;
+    script.onload = function(){
+        //(console.log('Script Loaded succesfully :' + source));
+        callBack(source, null);
+    };
+    script.onerror = function(){
+        //(console.error('Script Loading failed :' + source));
+        callBack(source, new Error('The Source is wrong.'));
+    };
+    document.head.append(script);
+}
+
+messageHandler = (source, error) => {
+    if(error){
+        console.error('ERROR : Script Loading Failed. ' + error);
+    }
+    else{
+        console.info('INFO : Script Loaded Succesfully. ' + source);
+    }
+}
+
+loadScript('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', messageHandler);
 ```
 ```javascript
 53
