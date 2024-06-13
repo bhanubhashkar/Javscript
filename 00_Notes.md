@@ -1234,7 +1234,6 @@ While calling the passed function from any function parameter can also be passed
 Using callback is not recommended. Use Promises instead of callback whenever required.
 
 */
-
 loadScript = (source, callBack) => {
     var script = document.createElement('script');
     script.src = source;
@@ -1257,11 +1256,17 @@ messageHandler = (source, error) => {
         console.info('INFO : Script Loaded Succesfully. ' + source);
     }
 }
-
 loadScript('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', messageHandler);
+
 ```
+## Calback Hell & Pyramid of Doom 
 ```javascript
-53
+ /*
+If Multiple callback is triggered one inside one, the call become nested and code becomes more deeper. 
+Then it will create a doom like structure which can full our stack/execution context memory. Which is called as callback hell or pyramid of doom.
+It also decrease code redability and maintanance. The pyramid of these calls grows towards right with the async action soon it sptals out of control so this way of coding is not recommended.
+Using multiple callback is not recommended. Use Promises instead of callback whenever required.
+*/
 
 ```
 ```javascript
