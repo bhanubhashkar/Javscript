@@ -18,11 +18,11 @@ result  : Initially undefined changes to value if resolved (resolve(value)) and 
 
 */
 // Promise
-let myPomise = new Promise(function(resolve,reject){
+let myPromise = new Promise(function(resolve,reject){
     console.log("I am a promise.");
     resolve('myPromise is Resolved.')
 });
-console.log(myPomise);
+console.log(myPromise);
 
 // Resolved Promise
 let myPromiseResolve = new Promise(function(resolve,reject){
