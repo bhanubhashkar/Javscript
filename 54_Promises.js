@@ -1,5 +1,5 @@
 
-// #####----- JavaScript Console -------------------------------------------------------------------------------------------------------#####
+// #####----- JavaScript Promises -------------------------------------------------------------------------------------------------------#####
 
 /*
 A promise is a promise of code execution, the cde either will be sucessfully executed or fail in both case subscriber will be notified. 
