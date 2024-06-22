@@ -15,10 +15,17 @@
 
         */
 
-        let myPromise = new Promise(function(resolve,reject){
+        let myPromiseResolve = new Promise(function(resolve,reject){
             setTimeout(()=>{
-                resolve("my Promise resolved.")
+                resolve("My Promise resolved.")
             },2000)
+
+        })
+
+        let myPromiseReject = new Promise(function(resolve,reject){
+            setTimeout(()=>{
+                reject("My Promise resolved.")
+            },5000)
 
         })
 
