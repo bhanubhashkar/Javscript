@@ -2,8 +2,10 @@
 // #####----- JavaScript Promise Then Chaining -------------------------------------------------------------------------------------------------#####
 
 /*
-Using promise chaining the resolve values can be passed to one aother using return keyword inside then block. The promise can be directlty returned using return new Promise and not storing them in any vaiable.
-The maim idea of promise chaining to pass the results through the chain of .then handlers. 
+Using promise chaining the resolve values can be passed to one aother promise using return keyword inside then block. 
+The promise can be directlty returned using return new Promise and not storing them in any vaiable.
+The main idea of promise chaining to pass the results through the chain of .then handlers.
+The promise execution will happen one after one.
 */
 
 // Promise Chaining

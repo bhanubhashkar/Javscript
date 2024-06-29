@@ -1400,8 +1400,10 @@ myPromiseReject.then((result)=>{
 ## Then Chaining
 ```javascript
 /*
-Using promise chaining the resolve values can be passed to one aother using return keyword inside then block. The promise can be directlty returned using return new Promise and not storing them in any vaiable.
-The maim idea of promise chaining to pass the results through the chain of .then handlers. 
+Using promise chaining the resolve values can be passed to one aother promise using return keyword inside then block. 
+The promise can be directlty returned using return new Promise and not storing them in any vaiable.
+The main idea of promise chaining to pass the results through the chain of .then handlers.
+The promise execution will happen one after one.
 */
 
 ```
@@ -1444,10 +1446,34 @@ let myPromise = new Promise((resolve,reject)=>{
 ```
 ## Promises
 ```javascript
-57
+/*
+Multiple handlers can be attached to one promise, It execute the independent handlers independentlty once the promise is fulfilled.
+
+*/
 
 ```
 ```javascript
+let myPromise = new Promise((resolve,reject)=>{
+    setTimeout(() => {
+        //console.log('Promise One Fulfilled.');
+        resolve('Promise is Fulfilled.')
+    }, 2000);
+});
+
+// Runs Independently
+myPromise.then((value)=>{
+    console.log(value);
+});
+
+myPromise.then(()=>{
+    setTimeout(() => {
+        console.log('Handler Two.');
+    }, 2000);
+});
+
+myPromise.then(()=>{
+    console.log('Handler Three.');
+});
 
 ```
 ## Promises
