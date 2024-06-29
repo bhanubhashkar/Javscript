@@ -59,7 +59,8 @@
 57 - Done : 57 - Promise with Handlers
 58 - Done : 58 - Promise API
 59 - Done : 59 - Aysnc Await
-60 - TBD : 60 - Error Try & Catch
+60 - Done : 60 - Error Try & Catch
+
 61 - TBD : 61 - Error Object & Custom Error
 62 - TBD : 62 - Final Clause
 63 - TBD : 63 - Practice Set 9
