@@ -1,5 +1,5 @@
 
-// #####----- JavaScript Promise Then Chaining -------------------------------------------------------------------------------------------------#####
+// #####----- JavaScript Promise Then Chaining --------------------------------------------------------------------------------------------------------#####
 
 /*
 Using promise chaining the resolve values can be passed to one aother promise using return keyword inside then block. 

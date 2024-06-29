@@ -1,5 +1,5 @@
 
-// #####----- JavaScript Promise Multiple Handlers -------------------------------------------------------------------------------------------------#####
+// #####----- JavaScript Promise Multiple Handlers ----------------------------------------------------------------------------------------------------#####
 
 /*
 Multiple handlers can be attached to one promise. 

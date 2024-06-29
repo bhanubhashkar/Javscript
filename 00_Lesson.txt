@@ -59,10 +59,27 @@
 57 - Done : 57 - Promise with Handlers
 58 - Done : 58 - Promise API
 59 - Done : 59 - Aysnc Await
-
-
-
-
+60 - TBD : 60 - Error Try & Catch
+61 - TBD : 61 - Error Object & Custom Error
+62 - TBD : 62 - Final Clause
+63 - TBD : 63 - Practice Set 9
+64 - TBD : 64 - Exercise 4 : Solution
+65 - TBD : 65 - Exercise 5 : Hackerman
+66 - TBD : 66 - Fetch API
+67 - TBD : 67 - Post Request with Fetch API
+68 - TBD : 68 - Cookies
+69 - TBD : 69 - Local Storage & Methods
+70 - TBD : 70 - Session Storage Method
+71 - TBD : 71 - Practice Set 10
+72 - TBD : 72 - Exercise 5 : Solution
+73 - TBD : 73 - Exercise 5 : ToDo
+74 - TBD : 74 - Object Oriented Programming
+75 - TBD : 75 - Protyesa & __proto__
+76 - TBD : 76 - Classes & Objects
+77 - TBD : 77 - Constructor 1
+78 - TBD : 78 - Inheritance & Extends
+79 - TBD : 79 - Constructor 2
+80 - TBD : 80 - Constructor 3
 
 
 

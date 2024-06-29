@@ -1,5 +1,5 @@
 
-// #####----- JavaScript Promise Then Catch -------------------------------------------------------------------------------------------------#####
+// #####----- JavaScript Promise Then Catch -----------------------------------------------------------------------------------------------------------#####
 
 /*
 Then and Catch is used to receive the final outcome of a promise and execute code basis on resolve/reject. If error is not handled then an runtime error will be shown by JS engine.
