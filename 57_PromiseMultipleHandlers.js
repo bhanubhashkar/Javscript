@@ -2,8 +2,8 @@
 // #####----- JavaScript Promise Multiple Handlers -------------------------------------------------------------------------------------------------#####
 
 /*
-Multiple handlers can be attached to one promise, It execute the independent handlers independentlty once the promise is fulfilled.
-
+Multiple handlers can be attached to one promise. 
+It execute the independent handlers independentlty once the promise is resolved.
 */
 
 let myPromise = new Promise((resolve,reject)=>{

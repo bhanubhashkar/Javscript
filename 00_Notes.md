@@ -1447,8 +1447,8 @@ let myPromise = new Promise((resolve,reject)=>{
 ## Promises
 ```javascript
 /*
-Multiple handlers can be attached to one promise, It execute the independent handlers independentlty once the promise is fulfilled.
-
+Multiple handlers can be attached to one promise. 
+It execute the independent handlers independentlty once the promise is fulfilled.
 */
 
 ```
